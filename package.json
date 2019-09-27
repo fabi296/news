@@ -1,0 +1,29 @@
+{
+    "name": "newswatcher",
+    "version": "0.0.0",
+    "description": "NewsWatcher",
+    "main": "server.js",
+    "author": {
+        "name": "Fabian Schneider",
+        "email": "fabian.schn@gmx.de"
+    },
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "async": "^2.6.0",
+        "bcrypt": "^3.0.6",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.18.2",
+        "dotenv": "^4.0.0",
+        "express": "^4.16.3",
+        "express-rate-limit": "^2.14.2",
+        "helmet": "^3.12.0",
+        "helmet-csp": "^2.7.0",
+        "joi": "^13.7.0",
+        "jwt-simple": "^0.5.6",
+        "mongodb": "^3.3.0-beta2",
+        "morgan": "^1.9.0",
+        "response-time": "^2.3.2"
+    }
+}
